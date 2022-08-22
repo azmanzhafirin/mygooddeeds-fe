@@ -2,11 +2,12 @@
 
 header {
   padding: 20px 0;
-  border: 1px solid red;
 }
 
 .header-wrapper {
+  padding: 0 80px;
   @include flex;
+  @include align-items(center);
   @include justify-content(space-between);
 }
 
@@ -14,8 +15,4 @@ header {
   width: 180px;
   height: auto;
   @include object-fit(contain);
-}
-
-.tes {
-  color: $primary-color;
 }
