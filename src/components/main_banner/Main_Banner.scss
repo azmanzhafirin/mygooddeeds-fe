@@ -1,5 +1,14 @@
 @import "/src/assets/styles/mixin.scss";
+@import "/src/assets/styles/overrides.scss";
 
 .main_banner {
-  border: 1px solid red;
+  position: relative;
+  height: 60vh;
+  background-color: #f8f8f8;
+
+  .banner {
+    height: 100%;
+    width: 100%;
+    @include object-fit(cover);
+  }
 }
