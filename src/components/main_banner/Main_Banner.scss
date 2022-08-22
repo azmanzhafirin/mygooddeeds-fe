@@ -4,6 +4,9 @@
 .main_banner {
   position: relative;
   height: 60vh;
+  @include flex;
+  @include align-items(center);
+  @include justify-content(center);
   background-color: #f8f8f8;
 
   .banner {

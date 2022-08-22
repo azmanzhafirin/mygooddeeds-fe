@@ -4,9 +4,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer>
-      <div className="container-fluid">
-        <h1>Footer</h1>
-      </div>
+      <h1>Footer</h1>
     </footer>
   );
 }
