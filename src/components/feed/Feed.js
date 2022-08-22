@@ -19,8 +19,6 @@ function Feed() {
             scrollbar={{ draggable: true }}
             spaceBetween={30}
             slidesPerView={4}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               <li className="list">

@@ -1,8 +1,7 @@
 @import "/src/assets/styles/mixin.scss";
 
-footer {
+.latest_blogs {
   position: relative;
-  background-color: #fafafa;
   min-height: 400px;
   @include flex;
   @include justify-content(center);
