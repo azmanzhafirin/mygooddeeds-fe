@@ -36,7 +36,8 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    background: #fafafa;
+    background-color: #7d8ab8;
+    color: #fff;
     border-radius: 100%;
     height: 30px;
     width: 30px;
@@ -44,11 +45,15 @@
     @include align-items(center);
     @include justify-content(center);
     font-size: 13px;
+    font-weight: 600;
   }
 }
 
 .feed-details {
-  padding: 30px;
+  padding: 20px;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 
   h6 {
     @include lineclamp(16px, 1);
@@ -60,6 +65,7 @@
     @include lineclamp(16px, 2);
     font-size: 13px;
     font-weight: 300;
+    margin: 0 0 5px 0;
   }
 
   .donations-details {
@@ -67,5 +73,20 @@
       font-size: 13px;
       font-weight: 600;
     }
+  }
+}
+
+.donate-wrapper {
+  text-align: right;
+
+  .donate-btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #7d8ab8;
+    cursor: pointer;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
   }
 }

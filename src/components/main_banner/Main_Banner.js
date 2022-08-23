@@ -5,7 +5,7 @@ import Banner from "../../assets/images/image-placeholder.png";
 function Main_Banner() {
   return (
     <div className="main_banner">
-      <h1>Main Banner</h1>
+      <div className="container"></div>
     </div>
   );
 }
