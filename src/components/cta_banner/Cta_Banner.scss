@@ -3,8 +3,5 @@
 .cta_banner {
   position: relative;
   background-color: #fafafa;
-  min-height: 400px;
-  @include flex;
-  @include justify-content(center);
-  @include align-items(center);
+  padding: 100px 0;
 }

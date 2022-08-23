@@ -1,9 +1,9 @@
 @import "/src/assets/styles/mixin.scss";
 
-.footer {
+.count {
   position: relative;
   background-color: #fafafa;
-  min-height: 400px;
+  min-height: 200px;
   @include flex;
   @include justify-content(center);
   @include align-items(center);

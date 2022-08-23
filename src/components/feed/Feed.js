@@ -1,22 +1,33 @@
 import React from "react";
+import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "./Feed.scss";
 import Feedbanner from "../../assets/images/feed-placeholder.jpeg";
+
+//Import styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "./Feed.scss";
 
 function Feed() {
   return (
     <div className="Feed">
       <div className="container">
-        <div className="title-h2">
-          <h2>Featured Topics</h2>
+        <div className="title-wrapper">
+          <div className="title-h2">
+            <h2>Ongoing Campaigns</h2>
+          </div>
+          <p className="title-content">
+            You can help lots of people by donating little.
+          </p>
         </div>
 
         <ul className="feed-wrapper">
           <Swiper
-            navigation
+            modules={[Navigation, Pagination]}
+            //navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
             spaceBetween={30}
             slidesPerView={4}
           >
@@ -36,6 +47,9 @@ function Feed() {
 
                   <div className="donations-details">
                     <span className="t-raised">Rm 5,570 raised</span>
+                  </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
                   </div>
                 </div>
               </li>
@@ -57,6 +71,9 @@ function Feed() {
                   <div className="donations-details">
                     <span className="t-raised">Rm 1,570 raised</span>
                   </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
+                  </div>
                 </div>
               </li>
             </SwiperSlide>
@@ -76,6 +93,9 @@ function Feed() {
 
                   <div className="donations-details">
                     <span className="t-raised">Rm 4,570 raised</span>
+                  </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
                   </div>
                 </div>
               </li>
@@ -97,6 +117,9 @@ function Feed() {
                   <div className="donations-details">
                     <span className="t-raised">Rm 9,570 raised</span>
                   </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
+                  </div>
                 </div>
               </li>
             </SwiperSlide>
@@ -116,6 +139,9 @@ function Feed() {
 
                   <div className="donations-details">
                     <span className="t-raised">Rm 8,5570 raised</span>
+                  </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
                   </div>
                 </div>
               </li>
