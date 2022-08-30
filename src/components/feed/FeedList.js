@@ -28,19 +28,19 @@ let data = [{
   id : 3,
   title: "Support the Bulla Family",
   description: "Jake Bulla was involved in a severe motorcycle accident recently and as a result, was flown to Royal Perth Hospital and was admitted to the Intensive Care Unit.",
-  totalDonation : 8700
+  totalDonation : 6400
 },
 {
   id : 4,
   title: "Support the Bulla Family",
   description: "Jake Bulla was involved in a severe motorcycle accident recently and as a result, was flown to Royal Perth Hospital and was admitted to the Intensive Care Unit.",
-  totalDonation : 8700
+  totalDonation : 9800
 },
 {
   id : 5,
   title: "Support the Bulla Family",
   description: "Jake Bulla was involved in a severe motorcycle accident recently and as a result, was flown to Royal Perth Hospital and was admitted to the Intensive Care Unit.",
-  totalDonation : 8700
+  totalDonation : 10700
 }];
 
 function FeedList() {

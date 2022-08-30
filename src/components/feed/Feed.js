@@ -16,7 +16,7 @@ function Feed(props){
       </p>
 
       <div className="donations-details">
-        <span className="t-raised">{props.totalDonation}</span>
+        <span className="t-raised">RM {props.totalDonation.toLocaleString()}</span>
       </div>
       <div className="donate-wrapper">
         <div className="donate-btn">Donate</div>
