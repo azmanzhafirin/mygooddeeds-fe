@@ -16,7 +16,24 @@ header {
 }
 
 .logo {
-  width: 180px;
+  width: 150px;
   height: auto;
   @include object-fit(contain);
+}
+
+.login-btn {
+  font-size: 14px;
+  line-height: initial;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #fff;
+  background-color: $primary-color;
+  display: inline-block;
+  cursor: pointer;
+  @include trans;
+
+  &:hover {
+    opacity: 0.9;
+  }
 }

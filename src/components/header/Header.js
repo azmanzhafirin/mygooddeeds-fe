@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div className="header-wrapper">
         <img src={Logo} alt="Logo" className="logo" />
-        <div className="">Button</div>
+        <div className="login-btn">Login</div>
       </div>
     </header>
   );

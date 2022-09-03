@@ -3,8 +3,18 @@
 .count {
   position: relative;
   background-color: #fafafa;
-  min-height: 200px;
+  padding: 50px 0;
   @include flex;
-  @include justify-content(center);
   @include align-items(center);
+}
+
+.count-wrapper {
+  padding: 0;
+  margin: 0;
+
+  .list {
+    p {
+      margin: 0;
+    }
+  }
 }

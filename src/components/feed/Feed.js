@@ -28,7 +28,7 @@ function Feed() {
             modules={[Navigation, Pagination]}
             //navigation
             pagination={{ clickable: true }}
-            spaceBetween={30}
+            spaceBetween={10}
             slidesPerView={4}
           >
             <SwiperSlide>
@@ -116,6 +116,29 @@ function Feed() {
 
                   <div className="donations-details">
                     <span className="t-raised">Rm 9,570 raised</span>
+                  </div>
+                  <div className="donate-wrapper">
+                    <div className="donate-btn">Donate</div>
+                  </div>
+                </div>
+              </li>
+            </SwiperSlide>
+            <SwiperSlide>
+              <li className="list">
+                <div className="feed-banner">
+                  <img src={Feedbanner} alt="feedbanner" />
+                  <div className="t-donations">35</div>
+                </div>
+                <div className="feed-details">
+                  <h6>Support the Bulla Family</h6>
+                  <p className="desc">
+                    Jake Bulla was involved in a severe motorcycle accident
+                    recently and as a result, was flown to Royal Perth Hospital
+                    and was admitted to the Intensive Care Unit.
+                  </p>
+
+                  <div className="donations-details">
+                    <span className="t-raised">Rm 8,5570 raised</span>
                   </div>
                   <div className="donate-wrapper">
                     <div className="donate-btn">Donate</div>
